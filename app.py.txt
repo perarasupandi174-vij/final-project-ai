@@ -1,0 +1,8 @@
+import streamlit as st
+
+st.title("AI Final Project Demo")
+
+text = st.text_input("Enter your issue")
+
+if st.button("Submit"):
+    st.success("This is a demo AI project submission")
